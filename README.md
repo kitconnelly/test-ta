@@ -19,9 +19,11 @@
 - Before completing the task, each team member will create a branch for said task
 - This branch can be created in terminal window with 'git checkout -b *branch_name*'
 - Now, each team member can complete the task on the appropriate branch
+- If you do not know how to create a text file, you can use 'touch Kit.txt' (replace Kit with your name)
 
 ## Step 5
 - With the file created, each member can now commit and push their branch to the repository (include 'Closes *issue number*' in the commit message)
+  - To make a commit, remember to add your changes ‘git add .’, commit with ‘git commit -m “message”’. Pushing new branches is a little bit different from pushing changes to an existing branch. To push a new branch (i.e. the one you created in step 4), run  ‘git push -u origin *branch_name*’
 - Now on GitHub, create a pull request with your new commit, assigning the writer of the issue to the pull request
 - Each team member will review a request and merge the commit (be sure to delete the branches after merging)
 - NOTE: If there is a merge conflict, please let us know. That means there was an error in branching or you edited the same file.
